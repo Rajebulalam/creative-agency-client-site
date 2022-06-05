@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Shared/Header';
 import Banner from './Banner';
 import Certified from './Certified';
+import Feedback from './Feedback';
 import Service from './Service';
 import Works from './Works';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Certified></Certified>
             <Service></Service>
             <Works></Works>
+            <Feedback></Feedback>
         </section>
     );
 };
