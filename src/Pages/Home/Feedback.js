@@ -7,7 +7,7 @@ const Feedback = () => {
     return (
         <section className='py-12 pb-16 px-4 sm:px-10 w-full sm:w-11/12 mx-auto'>
             <h2 className='text-2xl font-bold text-accent text-center pb-10'>Clients <span className='text-neutral'>Feedback</span></h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 <div className='p-4 rounded-md border'>
                     <div className='flex items-center'>
                         <div className='pr-4'>

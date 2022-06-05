@@ -4,7 +4,7 @@ import Footer from '../Shared/Footer';
 const Newsletter = () => {
     return (
         <section className='py-12 px-4 sm:px-10 bg-primary'>
-            <div className=' w-full sm:w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6'>
+            <div className=' w-full sm:w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <div>
                     <h2 className='text-3xl font-bold pb-6'>Let us handle your project, professionally.</h2>
                     <p>With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>

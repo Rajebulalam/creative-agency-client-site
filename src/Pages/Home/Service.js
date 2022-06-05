@@ -7,7 +7,7 @@ const Service = () => {
     return (
         <section className='pt-4 pb-16 px-4 sm:px-10 w-full sm:w-11/12'>
             <h2 className='text-2xl font-bold text-center text-black py-3 pb-10'>Provide awesome <span className='text-neutral'>services</span></h2>
-            <div className='w-full sm:w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6'>
+            <div className='w-full sm:w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 <div class="card lg:max-w-lg bg-base-100 hover:shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={web} alt="Shoes" class="rounded-ful w-[74px]" />

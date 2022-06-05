@@ -4,7 +4,7 @@ import bannerImage from '../../images/Frame.png';
 const Banner = () => {
     return (
         <section className='w-full sm:w-11/12 mx-auto px-4 py-8 sm:px-10'>
-            <div className='grid grid-cols-1 sm:grid-cols-2 gap-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
                 <div className='flex items-center py-6'>
                     <div>
                         <h2 className='text-4xl font-bold text-accent py-5'>Let's Grow Your Brand To The Next Level</h2>
