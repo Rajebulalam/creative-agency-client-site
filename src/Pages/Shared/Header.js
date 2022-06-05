@@ -16,7 +16,7 @@ const Header = () => {
     </>;
 
     return (
-        <nav>
+        <header>
             <div class="navbar bg-transparent w-full px-4 sm:px-10px sm:w-11/12 mx-auto py-4">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -35,7 +35,7 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-        </nav>
+        </header>
     );
 };
 

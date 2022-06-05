@@ -3,6 +3,7 @@ import Header from '../Shared/Header';
 import Banner from './Banner';
 import Certified from './Certified';
 import Feedback from './Feedback';
+import Newsletter from './Newsletter';
 import Service from './Service';
 import Works from './Works';
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Service></Service>
             <Works></Works>
             <Feedback></Feedback>
+            <Newsletter></Newsletter>
         </section>
     );
 };
