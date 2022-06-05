@@ -3,6 +3,7 @@ import Header from '../Shared/Header';
 import Banner from './Banner';
 import Certified from './Certified';
 import Service from './Service';
+import Works from './Works';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             </div>
             <Certified></Certified>
             <Service></Service>
+            <Works></Works>
         </section>
     );
 };
