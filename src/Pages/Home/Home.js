@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Shared/Header';
 import Banner from './Banner';
 import Certified from './Certified';
+import Service from './Service';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
                 <Banner></Banner>
             </div>
             <Certified></Certified>
+            <Service></Service>
         </section>
     );
 };
